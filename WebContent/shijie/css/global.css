@@ -1,0 +1,73 @@
+
+/*以下是全局样式，请勿在此修改，如需改动，请通过内联式来覆盖样式*/
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	overflow-y:scroll;
+}
+body{
+	background-color: #fff;
+	font-family: "幼圆";
+}
+div.content{
+	width:1000px;
+	margin:30px auto 0;
+}
+div.left{
+	float:left;
+}
+div.right{
+	float:right;
+	padding-top:20px;
+	width:770px;
+}
+div.dotted{
+	border-left:10px dotted rgb(179,181,131);
+	margin-left:15px;
+}
+.clean{
+	clear:both;
+}
+
+/*以下是头部和尾部的样式，请勿修改*/
+#header{
+	background-image:url(../img/index.png);
+	width:1000px;
+	height:250px;
+	min-width: 1000px;
+	margin:0 auto;
+}
+#header>ul{
+	padding:148px 0 0 240px;
+}
+#header>ul>li{
+	list-style-type:none;
+	width:78px;
+	height:100px;
+	float: left;
+	border:none;
+	/*border:1px solid red;*/
+}
+#header>ul>li:hover{
+	cursor:pointer;
+}
+#header>ul>li>a>img{
+	visibility:hidden;
+}
+#footer{
+	width:1000px;
+	margin:0 auto;
+	text-align: center;
+}
+#footer>p{
+	font-size: 26px;
+	font-weight:bold;
+	color:rgb(179,181,131);
+}
+#footer>span{
+	font-family:"黑体";
+	font-size: 14px;
+	color:rgb(40%,40%,40%);
+}

@@ -1,0 +1,73 @@
+/***************************************************************
+ * All page use this stylesheet
+ * My English is bad, so you can use chinese english to read them.
+ * Hope you can understand them. Good lucy, Haha!
+ ************************************************************/
+ 
+@font-face{
+	font-family: 'pan';
+	src:url(../fonts/webfont.otf);
+}
+/* Move down content because we have a fixed navbar that is 50px tall */
+body{
+	font-family:pan,"微软雅黑","宋体";
+}
+
+/***********
+* login.jsp
+***********/
+.login{
+	width:400px;
+	margin:0 auto;
+	margin-top:10%;
+	padding:20px;
+	border:1px solid #bbb;
+	border-radius:10px;
+}
+.login>h4{
+	margin-bottom:20px;
+	padding:10px 0;
+	border-bottom:1px solid #ccc;
+}
+
+/*
+* 导航条的样式
+*/
+/* Hide default border to remove 1px line. */
+.navbar-fixed-top{
+	border:0;
+}
+/*导航条上logo的样式*/
+.navbar-logo{
+	width:32px;
+	height:23px;
+	margin-right:2px;
+}
+/*
+* 导航条右侧的信息
+* 未登录则显示登录注册，以登录则显示欢迎 
+* border-left for pc
+* border-top for mobile
+*/
+.nav-login{
+	border:none;
+	border-top:1px solid #666;
+}
+@media(min-width:768px){
+	.nav-login{
+		border:none;
+		border-left:1px solid #666;
+	}
+}
+
+/*
+* 页面底部信息的样式
+*/
+.copyright{
+	width:100%;
+	text-align: center;
+	background-color:#63a19e;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+}

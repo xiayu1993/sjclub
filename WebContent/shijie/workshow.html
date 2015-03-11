@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>视界网络新媒体社团</title>
+	<link rel="shortcut icon" href="img/icon4.ico"/>
+	<link rel="stylesheet" href="css/global.css"/>
+	<script src="../global-js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/header.js" type="text/javascript"></script>
+	<style type="text/css">
+	.left{
+		background-color:rgb(179,181,131);
+		width:230px;
+		height:500px;
+	}
+	.left>h2{
+		color:rgb(114,72,32);
+		padding:30px 0 20px 0;
+		text-align: center;
+	}
+	.left>p{
+		color:#fff;
+		font-size:18px;
+		margin:10px 0 15px 5px;
+	}
+	.left>p:hover{
+		text-decoration:underline;
+		color:rgb(114,72,32);
+		cursor:pointer;
+	}
+	.show>div{
+		text-align: center;
+	}
+	.show>div>h2{
+		font-size:22px;
+		font-weight:normal;
+		color:rgb(20%,20%,20%);
+	}
+	.show>div>img{
+		margin:20px 0;
+	}
+	.show>div>p{
+		color:rgb(20%,20%,20%);
+	}
+	</style>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#header>ul>li:eq(3)').unbind()
+		$('#header>ul>li:eq(3)>a>img').css('visibility','visible')
+
+		$('.show>div:eq(0)').siblings().hide()
+		
+		$('.left>p:eq(0)').click(function(){
+			$('.show>div:eq(0)').show().siblings().hide()
+		})
+		$('.left>p:eq(1)').click(function(){
+			$('.show>div:eq(1)').show().siblings().hide()
+		})
+		$('.left>p:eq(2)').click(function(){
+			$('.show>div:eq(2)').show().siblings().hide()
+		})
+	/*	$('.left>p:eq(3)').click(function(){
+			$('.show>div:eq(3)').show().siblings().hide()
+		})
+		$('.left>p:eq(4)').click(function(){
+			$('.show>div:eq(4)').show().siblings().hide()
+		})
+		$('.left>p:eq(5)').click(function(){
+			$('.show>div:eq(5)').show().siblings().hide()
+	 	})*/
+	})
+	</script>
+</head>
+<body>
+	<div class="content">
+		<div class="left">
+			<h2>作品链接</h2>
+			<p>社团第一期宣传海报“视界之大，无不繁花”</p>
+			<p>社团第二期宣传海报“点击你的视界”</p>
+			<p>微公益海报“益点益滴”</p>
+			<!-- <p>网页模板“REAL BUSINESS”</p>
+			<p>网页模板“BUSINESS”</p>
+			<p>优秀照片展第一期</p> -->
+		</div>
+		<div class="right">
+			<div class="dotted">
+				<div class="show">
+					<div>
+						<h2>社团第一期宣传海报“视界之大&nbsp;无不繁花”</h2>
+						<img src="img/show1.png" width="235" height="325"/>
+						<p>设计者：设计部 陈晶</p>
+					</div>
+					<div>
+						<h2>社团第二期宣传海报“点击你的视界”</h2>
+						<img src="img/show2.png" width="235" height="335"/>
+						<p>设计者：设计部 王晓晨</p>
+					</div>
+					<div>
+						<h2>微公益海报“益点益滴”</h2>
+						<img src="img/show3.png" width="235" height="325" />
+						<p>设计者：设计部 陈晶</p>
+					</div>
+					<!-- <div>
+						<h2>网页模板“REAL BUSINESS”</h2>
+						<img src="img/show-4-1.png" width="625" height="388"/>
+						<img src="img/show-4-2.png" width="625" height="388"/>
+						<img src="img/show-4-3.png" width="625" height="388"/>
+						<img src="img/show-4-4.png" width="625" height="388"/>
+						<p>模板制作组：编辑部 周亮</p>
+						<p style="text-align:left;padding-top:10px;font-size:14px">
+							说明：此模板来源于《网页设计-上海人民美术出版社 第一版》P15
+						</p>
+					</div>
+					<div>
+						<h2>网页模板“BUSINESS”</h2>
+						<img src="" />
+					</div>
+					<div>
+						<h2>优秀照片展第一期</h2>
+						<img src="" />
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/footer.js"></script>
+</body>
+</html>
