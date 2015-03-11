@@ -1,0 +1,231 @@
+/***************
+* sjclub通用样式
+****************/
+body{
+	padding-top:50px;
+}
+.content{
+	margin-bottom:40px;
+}
+
+
+
+/*
+* 内容区的每个模块的标题，分割线的样式
+*/
+.subfield{
+	color:#79c5c1;
+	margin-top:20px;
+}
+.subfield>h4{
+	margin-bottom:2px;
+}
+.subfield>h4>small{
+	margin-left:5px;
+}
+.subfield>h4>small>a:hover{
+	color:rgb(220,90,74);
+}
+.subfield>hr{
+	text-align:left;
+	border-color:#79c5c1;
+	border-width:2px;
+	margin:5px 0;
+}
+/*
+* 页面大图的样式
+*/
+.header-img>img{
+	width:100%;
+}
+
+
+/*
+* 社团logo和社团名一起出现时的块状样式
+*/
+.show-club{
+	margin:5px;
+	height:150px;
+	text-align:center;
+}
+.show-club>img{
+	width:120px;
+	height:90px;
+}
+.show-club>a{
+	display:block;
+	margin:0 10px;
+	margin-top:5px;
+	padding:5px;
+	background-color:#76c7c1;
+	color:#fff;
+}
+.show-club>a:link{
+	text-decoration:none;
+}
+.show-club>a:visited{
+	text-decoration:none;
+}
+.show-club>a:hover{
+	text-decoration:none;
+	background-color:rgb(238,102,86)
+}
+.show-club>a:active{
+	text-decoration:none;
+}
+
+
+/**********
+* index.jsp
+***********/
+/*
+* slider
+*/
+/*设置图片宽度为100%*/
+.item>img{
+	width:100%;
+}
+/*设置图片切换按钮的宽度*/
+.carousel-indicators>li{
+	width:40px;
+}
+
+/*
+* news
+*/
+.news>div>p{
+	margin-bottom:5px;
+}
+/*当页面大于768px时显示两栏分隔线*/
+.news-right{
+	border:none;
+}
+@media(min-width:768px){
+	.news-right{
+		border-left:1px solid #bbb;
+	}
+}
+
+/******************
+* active_detail.jsp
+*******************/
+/*活动内容的样式*/
+.active_content{
+	text-align:center;
+}
+.active_content img{
+	margin:5px;
+}
+.active_content p{
+	text-align:justify;
+}
+/*活动右侧的链接样式*/
+.active_detail_right{
+	margin-top:80px;
+}
+.active_detail_right>h4{
+	color:rgb(234,104,90);
+	margin-bottom:20px;
+}
+.active_detail_right a{
+	color:rgb(234,104,90);
+}
+.active_detail_right a:hover{
+	color:rgb(118,199,193);
+	text-decoration:none;
+}
+
+/******************
+* list_detail.jsp
+*******************/
+/*
+* 加入社团按钮处的样式
+*/
+.add-club{
+	border:1px solid #aaa;
+	padding:5px;
+	background-color:#ccffcc;
+}
+.add-club>p{
+	margin-bottom:0;
+	padding:5px;
+}
+
+/************
+* utility.jsp
+*************/
+.utility-content{
+	text-align:center;
+	padding-top:10px;
+}
+.utility-ul,
+.utility-ul ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.utility-ul>li{
+	display:inline-block;
+	margin:20px;
+	width:200px;
+	text-align:inherit;
+}
+.utility-ul-li1,
+.utility-ul-li2,
+.utility-ul-li3,
+.utility-ul-li4{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	border-radius:20%;
+	font-size:250%;
+}
+.utility-ul a{
+	color:#fff;
+	text-decoration:none;
+	padding:25px;
+}
+.utility-ul>li>ul>li:last-child>h4{
+	color:#333;
+	font-weight:bold;
+}
+.utility-ul>li>ul>li:last-child>p{
+	color:#999;
+}
+.utility-ul-li1{
+	background-color:#428bca
+}
+.utility-ul-li2{
+	background-color:#5cb85c
+}
+.utility-ul-li3{
+	background-color:#f0ad4e
+}
+.utility-ul-li4{
+	background-color:#d9534f
+}
+
+
+/**********
+* about.jsp
+***********/
+.introducation{
+	padding:50px 0px 20px 50px;
+	color:#6b6b6b;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+.introducation span{
+	letter-spacing: 5px;
+}
+.strong-1{
+	font-size: 18px;
+}
+.strong-2{
+	font-size: 22px;
+}
+.strong-3{
+	font-size: 16px;
+}

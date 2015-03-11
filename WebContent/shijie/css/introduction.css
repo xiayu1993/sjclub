@@ -1,0 +1,242 @@
+﻿#div_contentHead
+{
+    width:1000px;
+    height:66px;
+    background-image:url(../images/div_contentHead.gif);
+    }
+    
+#div_contentFoot
+{
+    width:1000px;
+    height:66px;
+    background-image:url(../images/div_contentFoot.gif);
+    }
+
+#div_contentMid_left1
+{
+    width:91px;
+    height:521px;
+    background-image:url(../images/div_contentMid_left1.gif);}
+
+#div_contentMid_left2
+{
+    width:373px;
+    height:521px;
+}
+
+#div_contentMid_left2_head
+{
+    width:373px;
+    height:23px;
+    background-image:url(../images/div_contentMid_left2_head.gif);}
+
+#div_contentMid_left3
+{
+    width:118px;
+    height:521px;
+    background-image:url(../images/div_contentMid_left3.gif);}
+
+
+#div_contentMid_left4_main
+{
+    width:60px;
+    height:60px;
+    }
+
+#div_contentMid_left4_head
+{
+    width:71px;
+    height:25px;
+    background-image:url(../images/div_contentMid_left4_head.gif);
+    background-repeat:no-repeat;
+    background-color:#ffffff;}
+
+#div_contentMid_left4_foot
+{
+    width:71px;
+    height:427px;
+    background-image:url(../images/div_contentMid_left4_foot.gif);}
+
+#div_contentMid_left5
+{
+    width:37px;
+    height:521px;
+    background-image:url(../images/div_contentMid_left5.gif);}
+
+#div_contentMid_left6_head
+{
+    width:84px;
+    height:70px;
+    background-image:url(../images/div_contentMid_left6_head.gif);
+    background-repeat:no-repeat;
+    background-color:#ffffff;}
+
+#div_contentMid_left6_main
+{
+    width:72px;
+    height:73px;
+    }
+
+#div_contentMid_left6_foot
+{
+    width:84px;
+    height:370px;
+    background-image:url(../images/div_contentMid_left6_foot.gif);}
+
+#div_contentMid_left7
+{
+    width:88px;
+    height:521px;
+    background-image:url(../images/div_contentMid_left7.gif);}
+
+#div_contentMid_left8
+{
+    padding-top:4px;
+    }
+
+#div_contentMid_left8_main
+{
+    width:72px;
+    height:72px;
+    }
+
+#div_contentMid_left8_foot
+{
+    width:85px;
+    height:436px;
+    background-image:url(../images/div_contentMid_left8_foot.gif);}
+
+#div_contentMid_left9
+{
+    width:53px;
+    height:521px;
+    background-image:url(../images/div_contentMid_left9.gif);}
+ 
+.div_contentMid_left
+{
+    float:left;}
+    
+.clr
+{
+    clear:both;}
+
+#div_1,#div_2
+{
+    height:39px;
+    width:373px;
+    background-color:#b3b583;    
+}
+#p_next,#p_previous,#p1,#p2
+{
+     color:White;  
+     padding:0px;
+     margin:0px;
+}
+#p_next:hover,#p_previous:hover,#p1:hover,#p2:hover
+{
+     color:Red;
+     cursor:pointer;
+}
+#p_next,#p1
+{
+    float:right; 
+    margin-right:10px;   
+}
+#p_previous,#p2
+{
+    float:left;    
+    margin-left:10px;
+}
+
+#div_contentMid_left2_main
+{
+    height:498px;
+    width:373px;
+    background-color:#b3b583;  
+    background-repeat:no-repeat;
+}
+
+#div_contentMid_left2_main_text,#div_contentMid_left2_main_text2,#div_contentMid_left2_main_text3,#div_contentMid_left2_main_text4
+{
+    height:459px;
+    width:373px;
+    background-color:#b3b583;  
+}
+
+.div_contentMid_main
+{
+    border:4px dotted #b3b583; 
+    border-radius:50%;
+}
+
+.div_contentMid_main p
+{
+    color:#b3b583;
+}
+
+.div_contentMid_main_text
+{
+    background-color:#ffffff;   
+    border-radius:50%; 
+}
+
+.div_contentMid_main_text p
+{
+    font-family:"幼圆";
+    font-weight:bold;  
+}
+
+.div_contentMid_main_text:hover
+{
+    background-color:#b3b583;  
+    cursor:pointer;
+}
+
+#div_contentMid_left4_main_text
+{
+    width:60px;
+    height:60px;
+}
+
+#div_contentMid_left4_main_text p
+{
+     padding:19px 0px 20px 14px;
+}
+
+#div_contentMid_left8_main_text
+{
+    width:72px;
+    height:72px
+}
+
+#div_contentMid_left8_main_text p
+{
+    padding:25px 0px 20px 2px;
+}
+
+#div_contentMid_left6_main_text
+{
+    width:72px;
+    height:73px;
+}
+
+#div_contentMid_left6_main_text p
+{
+    padding:26px 0px 20px 3px;
+}
+
+#div_contentMid_left2_main_text p,#div_contentMid_left2_main_text2 p,#div_contentMid_left2_main_text3 p,#div_contentMid_left2_main_text4 p
+{
+    text-indent:2em;
+    font-family:"幼圆";
+    font-weight:bold;  
+    line-height:25px;
+    padding:0px 8px; 
+}
+
+#div_contentMid_left2_main_text h1,#div_contentMid_left2_main_text2 h1,#div_contentMid_left2_main_text3 h1,#div_contentMid_left2_main_text4 h1
+{
+    width:135px;
+    margin:0px auto;   
+    padding:20px 0px; 
+}
