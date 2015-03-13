@@ -2,10 +2,7 @@ package servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 
-import javabean.DBUtil;
 import javabean.UserDB;
 
 import javax.servlet.ServletException;
