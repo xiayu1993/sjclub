@@ -133,7 +133,7 @@
 		%>
 				<div>
 					<p>您还没有创建过统计表！</p>
-					<button class="button" type="button"><span class="glyphicon glyphicon-plus"></span>&nbsp;新建统计表</button>
+					<a class="btn btn-default btn-sm" href="create.jsp"><span class="glyphicon glyphicon-plus"></span>&nbsp;新建统计表</a>
 				</div>
 		<%
 			}
